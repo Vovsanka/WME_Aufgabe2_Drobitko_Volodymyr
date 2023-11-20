@@ -24,7 +24,11 @@ function initTable() {
     // is called only once when mounted to add dynamic DOM elements to the table
     // adds the table headers and body
     // fills the table contents for the first time
-    let table = document.getElementById('data-table')
+    let table = document.getElementById('data-table');
+    if (table == null) {
+        return;
+    }
+
     let thead = table.querySelector('thead')
     let tbody = table.querySelector('tbody')
 
@@ -81,6 +85,10 @@ function fillTableContents() {
 
 function fillColumnToggles() {
     let toggleList = document.getElementsByClassName('data__column-toggle')
+    if (!toggleList) {
+        return
+    }
+
     const optionalHeaders = headers.slice(2)
     
     // init the columnn toggles
