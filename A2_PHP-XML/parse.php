@@ -20,7 +20,7 @@
 
     echo "<pre>\n";
     print_r($parser->parseCSV("./world_data_v3.csv"));
-    echo "</pre>\n";
+    echo "\n</pre>\n";
 
     ?>
 
