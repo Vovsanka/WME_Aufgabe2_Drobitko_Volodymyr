@@ -50,6 +50,11 @@ class WorldDataParser
         }
     }
 
+    public function printXML($pathXML, $pathXSLT)
+    {
+
+    }
+
 }
 
 ?>

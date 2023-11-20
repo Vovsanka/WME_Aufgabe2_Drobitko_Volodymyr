@@ -1,18 +1,31 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
-require_once('world_data_parser.php');
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-$parser = new WorldDataParser();
+<body>
+    <?php
 
-$dataArray = $parser->parseCSV("./world_data_v3.csv");
-$successXML = $parser->saveXML($dataArray);
+    require_once('world_data_parser.php');
 
-echo "<h2> XML save status: ";
-if ($successXML == TRUE) {
-    echo "success (1)";
-} else {
-    echo "failure (0)";
-}
-echo "</h2>";
+    $parser = new WorldDataParser();
 
-?>
+    $dataArray = $parser->parseCSV("./world_data_v3.csv");
+    $successXML = $parser->saveXML($dataArray);
+
+    echo "<h2> XML save status: ";
+    if ($successXML == TRUE) {
+        echo "success (1)";
+    } else {
+        echo "failure (0)";
+    }
+    echo "</h2>";
+
+    ?>
+
+</body>
+
+</html>
