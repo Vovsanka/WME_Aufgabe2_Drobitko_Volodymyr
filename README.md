@@ -10,6 +10,9 @@
 - alle zur 2. Aufgabe relevanten Dateien (die temporären auch) sind im Ordner _A2_PHP-XML_;
 - XSLT-Stylesheet heißt _world_data.xsl_;
 - _world_data.xml_ wird automatisch generiert, Sie dürfen gerne die Inhalte sowie die Datei vor dem Testen entfernen;
+- A2-Print erzeugt rein eine HTML-Tabelle, deren Daten nicht in JS unterstützt werden
+  (dazu müsste man in _main.js_ die Konstanten _headers_ und _dataset_ mit dem Ergebnis von WorldDataParser.parseCSV() initialisieren, _dataset_ unterstützen und die Tabelle immer mit den Inhalten von _dataset_ auffüllen; das widerspricht aber der bereitstellung von der vorgefertigten HTML-Tabelle);
+- der Code ist auf Englisch dokumentiert, weil die Methoden (und daher auch die Variablen) die englischen Namen haben;
 
 ## Link zum Git-Repo:
 
