@@ -8,7 +8,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <thead>
             <tr>    
                 <th>ID</th>
-                <th>Country</th>
+                <th>Country
+                    <img src="../assets/img/up.svg" alt="^" class="sort-icon"/>
+                    <img src="../assets/img/down.svg" alt="¿" class="sort-icon"/></th>
                 <th>birth rate / 1000</th>
                 <th>cell phones / 100</th>
                 <th>children / woman</th>

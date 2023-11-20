@@ -2,10 +2,11 @@
 
 ## Github-Pages
 
-https://vovsanka.github.io/WME_Aufgabe1_Drobitko_Volodymyr/
+https://vovsanka.github.io/WME_Aufgabe2_Drobitko_Volodymyr/
 
 ## Link zum Git-Repo:
 
+https://github.com/Vovsanka/WME_Aufgabe2_Drobitko_Volodymyr.git
 https://github.com/Vovsanka/WME_Aufgabe1_Drobitko_Volodymyr.git
 
 ## Anmerkungen zur Lösung:

@@ -27,43 +27,43 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../index.html" target="_blank">
+                    <a href="../index.html">
                         <img src="../assets/img/table.svg" alt="">
                         <span>A1 - Table</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../A2_PHP-XML/parse.php" target="_blank">
+                    <a href="../A2_PHP-XML/parse.php">
                         <img src="../assets/img/cogs.svg" alt="">
                         <span>A2 - Parse</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../A2_PHP-XML/save.php" target="_blank">
+                    <a href="../A2_PHP-XML/save.php">
                         <img src="../assets/img/save.svg" alt="">
                         <span>A2 - Save</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../A2_PHP-XML/print.php" target="_blank">
+                    <a href="../A2_PHP-XML/print.php">
                         <img src="../assets/img/print.svg" alt="">
                         <span>A2 - Print</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank">
+                    <a>
                         <img src="../assets/img/nodejs.svg" alt="">
                         <span>A3 - REST</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank">
+                    <a>
                         <img src="../assets/img/map.svg" alt="">
                         <span>A4 - Vis</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank">
+                    <a>
                         <img src="../assets/img/cube.svg" alt="">
                         <span>A5 - 3D</span>
                     </a>
@@ -89,8 +89,16 @@
             <a href="https://www.loremipsum.de/">www.loremipsum.de</a>
         </div>
         <div class="data">
+            <div class="data__column-toggle">
+            </div>
             <!-- <table class="data__table" id="data-table"> -->
             <?php
+
+            /*
+            a clone of index.html with the table generated from xml using xsl-stylesheet
+            (requires WorldDataParser)
+            does not bind JS data processing, just displays the generated HTML
+            */
 
             require_once('world_data_parser.php');
 
@@ -107,6 +115,8 @@
 
             ?>
             <!-- </table> -->
+            <div class="data__column-toggle">
+            </div>
         </div>
     </main>
     <footer>
