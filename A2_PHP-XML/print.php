@@ -89,28 +89,24 @@
             <a href="https://www.loremipsum.de/">www.loremipsum.de</a>
         </div>
         <div class="data">
-            <div class="data__column-toggle">
-            </div>
-            <table class="data__table" id="data-table">
-                <?php
+            <!-- <table class="data__table" id="data-table"> -->
+            <?php
 
-                require_once('world_data_parser.php');
+            require_once('world_data_parser.php');
 
-                $parser = new WorldDataParser();
+            $parser = new WorldDataParser();
 
-                $dataArray = $parser->parseCSV("./world_data_v3.csv");
-                $successXML = $parser->saveXML($dataArray);
+            $dataArray = $parser->parseCSV("./world_data_v3.csv");
+            $successXML = $parser->saveXML($dataArray);
 
-                if ($successXML == TRUE) {
+            if ($successXML == TRUE) {
+                echo $parser->printXML("./world_data.xml", "./world_data.xsl");
+            } else {
+                echo "ERROR: Couldn't generate XML";
+            }
 
-                } else {
-                    echo "ERROR: Couldn't generate XML";
-                }
-
-                ?>
-            </table>
-            <div class="data__column-toggle">
-            </div>
+            ?>
+            <!-- </table> -->
         </div>
     </main>
     <footer>

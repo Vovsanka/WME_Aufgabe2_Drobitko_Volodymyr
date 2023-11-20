@@ -50,9 +50,20 @@ class WorldDataParser
         }
     }
 
-    public function printXML($pathXML, $pathXSLT)
+    public function printXML($pathXML, $pathXSL)
     {
+        // Load the XML source
+        $xml = new DOMDocument;
+        $xml->load($pathXML);
 
+        $xsl = new DOMDocument;
+        $xsl->load($pathXSL);
+
+        // Configure the transformer
+        $proc = new XSLTProcessor;
+        $proc->importStyleSheet($xsl); // attach the xsl rules
+
+        return $proc->transformToXML($xml);
     }
 
 }
