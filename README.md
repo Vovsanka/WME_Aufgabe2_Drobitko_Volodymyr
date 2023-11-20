@@ -1,26 +1,25 @@
-# WME_Aufgabe1_Drobitko_Volodymyr
-
-## Github-Pages
-
-https://vovsanka.github.io/WME_Aufgabe2_Drobitko_Volodymyr/
-
-## Link zum Git-Repo:
-
-https://github.com/Vovsanka/WME_Aufgabe2_Drobitko_Volodymyr.git
-https://github.com/Vovsanka/WME_Aufgabe1_Drobitko_Volodymyr.git
+# WME_Aufgabe2_Drobitko_Volodymyr
 
 ## Anmerkungen zur Lösung:
 
-- öffnen Sie bitte die Shell im Project-Ordner
-- installieren Sie _live-server_ von npm (falls nicht vorhanden):
-  https://www.npmjs.com/package/live-server
-- _liver-server_ im Shell ausführen; die Seite ist nun unter http://127.0.0.1:8080/ zu sehen.
-- Alle Styles sind in **assets/styles/main.css**. **assets/styles/reset.css** ist eine Kopie von
-  https://github.com/murtaugh/HTML5-Reset/blob/master/assets/css/styles.css
-- Der Font Roboto ist über einen Link verbunden.
-- **Main.js** enthält ein Init-Script, alle Interface- und Berechnungsfunktionen.
-- Die Daten für die Tabelle werden der JSON-Datei in **/dataset** entnommen (analog zu der ursprünglichen CSV), die Tabellenspalten wurden manuell festgelegt. Außerdem gibt es eine Zuordnung für die Vereinfachung der Spaltennamen.
-- In **/assets/imgs** können Sie die benutzten SVG-Icons finden.
-- Man unterscheidet die folgenden 4 Ansichtsweisen (Breite): <=720px, <=1280px, <=1536px, >1536px.
+- im XAMPP einen Apache Server starten;
+- im Firefox _localhost:${port}_ aufrufen, ${port} steht in XAMPP
+- main-Logo ladet die Seite neu; A1-Tabelle ist die korrigierte Lösung von der 1. Aufgabe;
+  **A2-Parse**, **A2-Save**, **A2-Print** führen zu den Lösungen der 2. Aufgabe;
+- eventuell bei Server-Verzögerungen bitte die Seite neu laden;
+- alle zur 2. Aufgabe relevanten Dateien (die temporären auch) sind im Ordner _A2_PHP-XML_;
+- XSLT-Stylesheet heißt \_world_data.xsl
+- _world_data.xml_ wird automatisch generiert, Sie dürfen gerne die Inhalte sowie die Datei vor dem Testen entfernen;
 
-## Entwicklung mit VSCode + LiveServerHost (Firefox, Chrome, Edge)
+## Link zum Git-Repo:
+
+https://github.com/Vovsanka/WME_Aufgabe2_Drobitko_Volodymyr.git (Aufgabe 2)
+https://github.com/Vovsanka/WME_Aufgabe1_Drobitko_Volodymyr.git (Aufgabe 1)
+
+## Github-Pages
+
+!!! Die statischen Seiten unterstützen PHP nicht
+
+https://vovsanka.github.io/WME_Aufgabe2_Drobitko_Volodymyr/
+
+## Ich freue mich auf Feedback!
