@@ -8,7 +8,7 @@
   **A2-Parse**, **A2-Save**, **A2-Print** führen zu den Lösungen der 2. Aufgabe;
 - eventuell bei Server-Verzögerungen bitte die Seite neu laden;
 - alle zur 2. Aufgabe relevanten Dateien (die temporären auch) sind im Ordner _A2_PHP-XML_;
-- XSLT-Stylesheet heißt \_world_data.xsl
+- XSLT-Stylesheet heißt _world_data.xsl_;
 - _world_data.xml_ wird automatisch generiert, Sie dürfen gerne die Inhalte sowie die Datei vor dem Testen entfernen;
 
 ## Link zum Git-Repo:
